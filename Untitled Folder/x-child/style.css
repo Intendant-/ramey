@@ -1,0 +1,69 @@
+/*
+
+Theme Name: X &ndash; Child Theme
+Theme URI: http://theme.co/x/
+Author: Themeco
+Author URI: http://theme.co/
+Description: Make all of your modifications to X in this child theme.
+Version: 1.0.0
+Template: x
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Cabin:700);
+
+.x-topbar .p-info {float: right;}
+
+.x-topbar .x-social-global {display: none;}
+
+.fpd-icon-sb-left .fpd-sidebar {margin-right: 25px;}
+
+.fancy-product.fpd-customize-button-hidden .fpd-container {margin-right: 0px;}
+
+.x-btn, .button, [type="submit"] {font-family: cabin; font-weight: bold;}
+
+.fancy-product .fpd-start-customizing-button, .fancy-product .fpd-modal-button {background-color: #494647;
+color: ; color: #fff; border-color: #fff; font-family: cabin; font-weight: bold;}
+
+a, .h-landmark span {text-transform: uppercase;}
+
+a:hover {text-decoration: underline;}
+
+.entry-featured, 
+.x-img-thumbnail   {border: 0px solid #e5e5e5;
+padding: 0px;}
+
+mark {background-color: #fff; color: rgba(0, 0, 0, 0.14);display: none;}
+
+a, .h-landmark span {text-align: center;}
+
+select {width: 45%;border: 0px solid #ddd;background-color: #ddd;}
+
+.h-widget {
+margin: 0 0 0.65em;
+line-height: 1.1;
+margin-top: 0;
+border: 1px solid #4C4849;
+padding: 0.65em 0.65em 0.75em;
+font-size: 100%;
+letter-spacing: 0.15em;
+text-align: center;
+text-transform: uppercase;
+color: #4C4849;
+background-color: transparent;
+font-family: "Cabin";
+}
+
+ul>li a { display: block; text-align: left;}
+
+.tagcloud a {background-color: #66CDD3!important;}
+
+ul.sub-menu { margin-left: 25px;}
+
+.x-nav>li>a { text-align: right;}
+
+.x-topbar {height: 35px; padding: 0px;}
+
+.x-nav>li>a { float: right; padding: 13px;   font-weight: bold;}
+
+p.demo_store {display: none;}

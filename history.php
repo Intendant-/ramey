@@ -1,0 +1,5 @@
+<?php
+fancy_redirect();
+
+
+?>
